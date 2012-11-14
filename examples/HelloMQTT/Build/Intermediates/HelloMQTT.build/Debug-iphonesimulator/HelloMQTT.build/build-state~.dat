@@ -1,0 +1,250 @@
+THelloMQTT
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist HelloMQTT/HelloMQTT-Info.plist
+cProcessPCH /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth HelloMQTT/HelloMQTT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT normal i386
+cGenerateDSYMFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT
+cCopyStringsFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/InfoPlist.strings HelloMQTT/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard
+cTouch /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004F161A590000000000000110
+t1326848601
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F34AA100000000000245480
+t1328851472
+s2380928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F34AA1B0000000000353830
+t1328851483
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F34AA3100000000008F7390
+t1328851505
+s9401232
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/HelloMQTT.LinkFileList
+c0000000050A3B46F00000000000001FA
+t1352905839
+s506
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/PkgInfo
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m
+c0000000050A3AE0E00000000000007F9
+t1352904206
+s2041
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/HelloMQTT-Prefix.pch
+c0000000050A3AE0E0000000000000141
+t1352904206
+s321
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m
+c0000000050A3B4620000000000001CF0
+t1352905826
+s7408
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/InfoPlist.strings
+c0000000050A3AE0E000000000000002D
+t1352904206
+s45
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard
+c0000000050A3B130000000000000370B
+t1352905008
+s14091
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m
+c0000000050A3AE0E0000000000000153
+t1352904206
+s339
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/MqttSDK-Debug/libMqttSDK.a
+c0000000050A3AE0E0000000000044B6C
+t1352904206
+s281452
+
+N/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/MqttSDK-Release/libMqttSDK.a
+c0000000050A3AE0E0000000000048F74
+t1352904206
+s298868
+
+NHelloMQTT/HelloMQTT-Info.plist
+c0000000050A3AE0E0000000000000647
+t1352904206
+s1607
+
+CBuild AST from /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m
+r0
+
+CBuild AST from /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba6597efeb53b641^dae6a2efeb53b641^---0#1#0#--18"Check dependencies36"1CBE23B4-030A-45A7-98C2-680DA7699B2F-
+
+CCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374598639.974833
+e374598640.034994
+r1
+xCompileC
+xBuild/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m74b5f9efeb53b641^27f608f0eb53b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m0000000000000000^3755"CompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o HelloMQTT/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-generated-files.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-project-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources -F/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.dia -c /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/AppDelegate.m -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/AppDelegate.o36"57835F8F-6719-47DD-9922-6CE010B7EC55-
+
+CCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374598639.974916
+e374598640.054620
+r1
+xCompileC
+xBuild/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m5caff9efeb53b641^e7fb0df0eb53b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m0000000000000000^3773"CompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o HelloMQTT/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-generated-files.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-project-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources -F/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.dia -c /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/ViewController.m -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/ViewController.o36"69543926-FA3B-4C69-B53B-C9612873C8A0-
+
+CCompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374598639.974910
+e374598640.003948
+r1
+xCompileC
+xBuild/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.mb7b5f9efeb53b641^9b0201f0eb53b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m0000000000000000^3713"CompileC Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o HelloMQTT/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-generated-files.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-project-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources -F/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator -include /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.dia -c /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/main.m -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/main.o36"F6E60A3A-7286-4C38-AD63-AE029D1DEF01-
+
+CCompileStoryboard /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard
+s374598640.124334
+e374598643.424569
+r1
+xCompileStoryboard
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CompileStoryboard HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard64e51ff0eb53b641^79b16cf3eb53b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^1004"CompileStoryboard HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/MainStoryboard_iPhone.storyboardc /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/MainStoryboard_iPhone.storyboard --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"1D3B65BE-FD0A-48C4-A716-510FCD3F28C8-
+
+CCopyStringsFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/InfoPlist.strings HelloMQTT/en.lproj/InfoPlist.strings
+s374598640.124310
+e374598640.126905
+r1
+xCopyStringsFile
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/InfoPlist.strings
+xHelloMQTT/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy HelloMQTT/en.lproj/InfoPlist.strings04e41ff0eb53b641^5f7d20f0eb53b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/en.lproj/InfoPlist.strings0000000000000000^647"CopyStringsFile Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj/InfoPlist.strings HelloMQTT/en.lproj/InfoPlist.strings    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/en.lproj -- HelloMQTT/en.lproj/InfoPlist.strings36"3025B5C2-0898-45EE-B0E3-4702A66024A6-
+
+CGenerateDSYMFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT
+s374598640.097784
+e374598640.115169
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generating /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM431a19f0eb53b641^fa7b1df0eb53b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM000000000080d041^751"GenerateDSYMFile Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app.dSYM36"CC8A84A9-8C10-4AB1-B36D-32C3CD2BD154-
+
+CLd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT normal i386
+s374598640.061868
+e374598640.091437
+r1
+xLd
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Link /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT3eea0ff0eb53b641^be6817f0eb53b641^---0#0#0#--1582"Ld Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT normal i386    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator -L/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT -L/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/MqttSDK-Debug -L/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/MqttSDK-Release -F/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/Objects-normal/i386/HelloMQTT.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework UIKit -framework Foundation -framework CoreGraphics -lMqttSDK -lMqttSDK -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/HelloMQTT36"AA07BF9C-A135-4B6C-8D7B-0F2E8BDF0DD0-
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist HelloMQTT/HelloMQTT-Info.plist
+s374598639.640178
+e374598639.643547
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist
+xHelloMQTT/HelloMQTT-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process HelloMQTT/HelloMQTT-Info.plist95f1a3efeb53b641^f607a6efeb53b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/HelloMQTT-Info.plist0000000000000000^760"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist HelloMQTT/HelloMQTT-Info.plist    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloMQTT/HelloMQTT-Info.plist -genpkginfo /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app/Info.plist36"274AB8F6-385B-4CF7-87C6-05C7795A25E0-
+
+CProcessPCH /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth HelloMQTT/HelloMQTT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s374598639.651222
+e374598639.967016
+r1
+xProcessPCH
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth
+xHelloMQTT/HelloMQTT-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile HelloMQTT/HelloMQTT-Prefix.pch0fd3a6efeb53b641^5c8ef7efeb53b641^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/HelloMQTT-Prefix.pch0000000000000000^3605"ProcessPCH Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth HelloMQTT/HelloMQTT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-generated-files.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-own-target-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-all-target-headers.hmap -iquote /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/HelloMQTT-project-headers.hmap -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources/i386 -I/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/HelloMQTT.build/Debug-iphonesimulator/HelloMQTT.build/DerivedSources -F/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.dia -c /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/HelloMQTT/HelloMQTT-Prefix.pch -o /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.pth -MMD -MT dependencies -MF /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Intermediates/PrecompiledHeaders/HelloMQTT-Prefix-bavozhyfnchwonapfvdkusbrelud/HelloMQTT-Prefix.pch.d36"C196110E-043A-460C-AAC7-46692D3F0AF6-
+
+CProcessPCH /Users/smartkit/Library/Developer/Xcode/DerivedData/HelloMQTT-ewyaypyhauyvpxealuyzpaprzlcs/Index/PrecompiledHeaders/HelloMQTT-Prefix-fbjojgvnoisqlbdmtsrsdulvfqdp_ast/HelloMQTT-Prefix.pch.pth HelloMQTT/HelloMQTT-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app
+s374598643.432726
+e374598643.438127
+r1
+xTouch
+x/Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Touch /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app4dd86ef3eb53b641^672a70f3eb53b641^---0#0#0#--456"Touch Build/Products/Debug-iphonesimulator/HelloMQTT.app    cd /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/Github/mqttIO-objC/examples/HelloMQTT/Build/Products/Debug-iphonesimulator/HelloMQTT.app36"E984F899-6F60-4BE6-B9EC-BDBDD2996AB7-
+
