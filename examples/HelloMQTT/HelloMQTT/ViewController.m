@@ -18,6 +18,7 @@
 @synthesize connectButton;
 @synthesize topicName;
 @synthesize messageTable;
+@synthesize mqttAddress;
 
 - (void)viewDidLoad
 {
@@ -83,8 +84,10 @@
 - (void)session:(MQTTSession*)sender handleEvent:(MQTTSessionEvent)eventCode {
     switch (eventCode) {
         case MQTTSessionEventConnected:
-            NSLog(@"connected");
-            
+            NSLog(@"connected,clientID:%@",clientID);
+//Default conn to "tokudu" topic;
+            [topicName setText:
+             [[[NSString alloc] initWithString:@"tokudu/"] stringByAppendingString:clientID] ];
             break;
         case MQTTSessionEventConnectionRefused:
             NSLog(@"connection refused");
@@ -181,7 +184,8 @@
         }
         clientID = client;
         session = [[MQTTSession alloc] initWithClientId:clientID];
-        [session connectToHost:@"q.m2m.io" port:1883];
+//        [session connectToHost:@"q.m2m.io" port:1883];
+        [session connectToHost:[mqttAddress text] port:1883];
         [session setDelegate:self];
         [connectButton setTitle:@"Disconnect" forState:UIControlStateNormal];
         connecting = YES;

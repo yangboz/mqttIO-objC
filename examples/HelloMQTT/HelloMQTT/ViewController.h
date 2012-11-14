@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *connectButton;
 @property (weak, nonatomic) IBOutlet UITextField *topicName;
 @property (weak, nonatomic) IBOutlet UITableView *messageTable;
+@property (weak, nonatomic) IBOutlet UITextField *mqttAddress;
 
 - (IBAction)sendMessage:(id)sender;
 - (IBAction)connect:(id)sender;
