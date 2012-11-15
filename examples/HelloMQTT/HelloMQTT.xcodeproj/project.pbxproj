@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4901C2A165546B4002BC12C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4901C28165546B4002BC12C /* MainStoryboard_iPad.storyboard */; };
 		F396EA901577D0D2006A1D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA8F1577D0D2006A1D34 /* UIKit.framework */; };
 		F396EA921577D0D2006A1D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA911577D0D2006A1D34 /* Foundation.framework */; };
 		F396EA941577D0D2006A1D34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA931577D0D2006A1D34 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4901C29165546B4002BC12C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F396EA8B1577D0D2006A1D34 /* HelloMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMQTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F396EA8F1577D0D2006A1D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F396EA911577D0D2006A1D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +131,7 @@
 				F396EA9E1577D0D2006A1D34 /* AppDelegate.h */,
 				F396EA9F1577D0D2006A1D34 /* AppDelegate.m */,
 				F396EAA11577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard */,
+				A4901C28165546B4002BC12C /* MainStoryboard_iPad.storyboard */,
 				F396EAA71577D0D2006A1D34 /* ViewController.h */,
 				F396EAA81577D0D2006A1D34 /* ViewController.m */,
 				F396EA961577D0D2006A1D34 /* Supporting Files */,
@@ -287,6 +290,7 @@
 			files = (
 				F396EA9A1577D0D2006A1D34 /* InfoPlist.strings in Resources */,
 				F396EAA31577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard in Resources */,
+				A4901C2A165546B4002BC12C /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +350,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A4901C28165546B4002BC12C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4901C29165546B4002BC12C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
 		F396EA981577D0D2006A1D34 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,7 +447,7 @@
 					"\"$(SRCROOT)/MqttSDK-Release\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -455,7 +467,7 @@
 					"\"$(SRCROOT)/MqttSDK-Release\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
