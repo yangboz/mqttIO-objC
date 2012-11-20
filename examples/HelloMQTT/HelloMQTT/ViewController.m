@@ -99,7 +99,7 @@
             NSLog(@"connection error");
             NSLog(@"reconnecting...");
             // Forcing reconnection
-            [session connectToHost:@"q.m2m.io" port:1883];
+            [session connectToHost:[mqttAddress text] port:1883];
             break;
         case MQTTSessionEventProtocolError:
             NSLog(@"protocol error");
@@ -117,7 +117,24 @@
     [topicArray insertObject:topic atIndex:0];
     [messageTable reloadData];
     //[self newMessageReceived:payloadString Topic:topic];
-    
+    //send local notification
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    //
+    if (notification!=nil) { 
+        NSLog(@">> support local notification"); 
+        NSDate *now=[NSDate new]; 
+        //        notification.fireDate=[now addTimeInterval:10];
+        notification.fireDate = [now dateByAddingTimeInterval:10];
+        notification.timeZone=[NSTimeZone defaultTimeZone]; 
+        notification.alertBody=payloadString; 
+        //    [app setApplicationIconBadgeNumber:3];
+        notification.applicationIconBadgeNumber = notification.applicationIconBadgeNumber+1;
+        notification.repeatInterval = NSSecondCalendarUnit;
+        notification.soundName = UILocalNotificationDefaultSoundName;
+        notification.userInfo = [NSDictionary dictionaryWithObjectsAndKeys:@"title", @"ios local notification", @"alertText", payloadString, nil];
+        //
+        [[UIApplication sharedApplication]   scheduleLocalNotification:notification];
+    }
 }
 
 #pragma mark - Table View
@@ -175,6 +192,7 @@
 
 - (IBAction)connect:(id)sender {
     if (!connecting) {
+        NSLog(@"MQTT connecting...");
         NSString *alphabet  = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZY0123456789";
         NSMutableString *client = [NSMutableString stringWithCapacity:5];
         for (NSUInteger i = 0; i < 5; i++) {
