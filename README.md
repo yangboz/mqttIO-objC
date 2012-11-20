@@ -12,4 +12,8 @@ Extend sample based on tokudu, http://tokudu.com/2010/how-to-implement-push-noti
 ![Screenshot of iPhone](https://raw.github.com/yangboz/mqttIO-objC/master/hello-MQTT-tokudu.png)
 
 
-# TODO: ipad support.
+# ipad support.
+
+Ref: http://stackoverflow.com/questions/8465769/convert-storyboard-from-iphone-to-ipad
+
+# TODO:local Notification support.
