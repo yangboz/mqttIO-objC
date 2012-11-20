@@ -16,4 +16,6 @@ Extend sample based on tokudu, http://tokudu.com/2010/how-to-implement-push-noti
 
 Ref: http://stackoverflow.com/questions/8465769/convert-storyboard-from-iphone-to-ipad
 
-# TODO:local Notification support.
+# local notification support.
+
+# TODO:
