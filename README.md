@@ -20,4 +20,4 @@ Ref: http://stackoverflow.com/questions/8465769/convert-storyboard-from-iphone-t
 
 Ref: https://developer.apple.com/library/ios/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008194
 
-# TODO:
+# TODO: logging with console display.
