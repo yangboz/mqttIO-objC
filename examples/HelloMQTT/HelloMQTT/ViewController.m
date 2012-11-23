@@ -19,6 +19,7 @@
 @synthesize topicName;
 @synthesize messageTable;
 @synthesize mqttAddress;
+@synthesize consoleView;
 
 - (void)viewDidLoad
 {
@@ -88,22 +89,29 @@
 //Default conn to "tokudu" topic;
             [topicName setText:
              [[[NSString alloc] initWithString:@"tokudu/"] stringByAppendingString:clientID] ];
+            [self logToConsole:@"MQTT connected."];
             break;
         case MQTTSessionEventConnectionRefused:
             NSLog(@"connection refused");
+            [self logToConsole:@"MQTT connection refused."];
             break;
         case MQTTSessionEventConnectionClosed:
             NSLog(@"connection closed");
+            [self logToConsole:@"MQTT connection closed."];
             break;
         case MQTTSessionEventConnectionError:
             NSLog(@"connection error");
+            [self logToConsole:@"MQTT connection error."];
             NSLog(@"reconnecting...");
+            [self logToConsole:@"MQTT reconnecting..."];
             // Forcing reconnection
             [session connectToHost:[mqttAddress text] port:1883];
             break;
         case MQTTSessionEventProtocolError:
             NSLog(@"protocol error");
+            [self logToConsole:@"MQTT protocol error."];
             break;
+             
     }
 }
 
@@ -113,6 +121,8 @@
     NSLog(@"new message, %d bytes, topic=%@", [data length], topic);
     NSString *payloadString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSLog(@"data: %@ %@", payloadString,data);
+    [self logToConsole:@"MQTT new message:"];
+    [self logToConsole:payloadString];
     [messageArray insertObject:payloadString atIndex:0];
     [topicArray insertObject:topic atIndex:0];
     [messageTable reloadData];
@@ -173,6 +183,7 @@
     [self setTopicName:nil];
     [self setMessageTable:nil];
     [self setScrollView:nil];
+    [self setConsoleView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -193,6 +204,8 @@
 - (IBAction)connect:(id)sender {
     if (!connecting) {
         NSLog(@"MQTT connecting...");
+        
+        [self logToConsole:@"MQTT connecting..."];
         NSString *alphabet  = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXZY0123456789";
         NSMutableString *client = [NSMutableString stringWithCapacity:5];
         for (NSUInteger i = 0; i < 5; i++) {
@@ -218,5 +231,12 @@
 - (IBAction)subscribe:(id)sender {
     [topicName resignFirstResponder];
     [session subscribeTopic:topicName.text];
+}
+
+-(void)logToConsole:(NSString *)data{
+    NSString *lasted = [consoleView text];
+    lasted = [lasted stringByAppendingString:@"\n"];
+    lasted = [lasted stringByAppendingString:data];
+    [consoleView setText:lasted];
 }
 @end
