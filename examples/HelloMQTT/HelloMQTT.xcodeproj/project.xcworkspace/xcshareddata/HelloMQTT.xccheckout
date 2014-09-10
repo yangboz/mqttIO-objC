@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A674FFC9-FB2A-4929-A80D-EC8985D1279F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloMQTT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0017B945-8C8D-4A0F-9593-03631A361EA8</key>
+		<string>https://github.com/yangboz/mqttIO-objC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>examples/HelloMQTT/HelloMQTT.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0017B945-8C8D-4A0F-9593-03631A361EA8</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yangboz/mqttIO-objC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0017B945-8C8D-4A0F-9593-03631A361EA8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0017B945-8C8D-4A0F-9593-03631A361EA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mqttIO-objC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

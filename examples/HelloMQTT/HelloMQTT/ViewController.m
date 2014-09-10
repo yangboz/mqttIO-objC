@@ -88,7 +88,7 @@
             NSLog(@"connected,clientID:%@",clientID);
 //Default conn to "tokudu" topic;
             [topicName setText:
-             [[[NSString alloc] initWithString:@"tokudu/"] stringByAppendingString:clientID] ];
+             [@"tokudu/" stringByAppendingString:clientID] ];
             [self logToConsole:@"MQTT connected."];
             break;
         case MQTTSessionEventConnectionRefused:

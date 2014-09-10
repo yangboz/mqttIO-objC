@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6566616219C092B300DE4092 /* libMqttSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6566616119C092B300DE4092 /* libMqttSDK.a */; };
 		A4901C2A165546B4002BC12C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4901C28165546B4002BC12C /* MainStoryboard_iPad.storyboard */; };
 		F396EA901577D0D2006A1D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA8F1577D0D2006A1D34 /* UIKit.framework */; };
 		F396EA921577D0D2006A1D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA911577D0D2006A1D34 /* Foundation.framework */; };
@@ -21,8 +22,6 @@
 		F396EAB31577D0D2006A1D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA911577D0D2006A1D34 /* Foundation.framework */; };
 		F396EABB1577D0D2006A1D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F396EAB91577D0D2006A1D34 /* InfoPlist.strings */; };
 		F396EABE1577D0D2006A1D34 /* HelloMQTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F396EABD1577D0D2006A1D34 /* HelloMQTTTests.m */; };
-		F396EADA1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EAD21577D1C6006A1D34 /* libMqttSDK.a */; };
-		F396EADB1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EAD91577D1C6006A1D34 /* libMqttSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6566616119C092B300DE4092 /* libMqttSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMqttSDK.a; path = "../../dist/MqttSDK-Release-armv7s/libMqttSDK.a"; sourceTree = "<group>"; };
 		A4901C29165546B4002BC12C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F396EA8B1577D0D2006A1D34 /* HelloMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMQTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F396EA8F1577D0D2006A1D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -73,11 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6566616219C092B300DE4092 /* libMqttSDK.a in Frameworks */,
 				F396EA901577D0D2006A1D34 /* UIKit.framework in Frameworks */,
 				F396EA921577D0D2006A1D34 /* Foundation.framework in Frameworks */,
 				F396EA941577D0D2006A1D34 /* CoreGraphics.framework in Frameworks */,
-				F396EADA1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */,
-				F396EADB1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +116,7 @@
 		F396EA8E1577D0D2006A1D34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6566616119C092B300DE4092 /* libMqttSDK.a */,
 				F396EA8F1577D0D2006A1D34 /* UIKit.framework */,
 				F396EA911577D0D2006A1D34 /* Foundation.framework */,
 				F396EA931577D0D2006A1D34 /* CoreGraphics.framework */,
@@ -264,6 +264,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				TargetAttributes = {
+					F396EA8A1577D0D2006A1D34 = {
+						DevelopmentTeam = 63X9SGW3ZX;
+					};
+				};
 			};
 			buildConfigurationList = F396EA851577D0D2006A1D34 /* Build configuration list for PBXProject "HelloMQTT" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -391,6 +396,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -417,6 +423,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -435,18 +442,21 @@
 		F396EAC21577D0D2006A1D34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
 				INFOPLIST_FILE = "HelloMQTT/HelloMQTT-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/MqttSDK-Debug\"",
 					"\"$(SRCROOT)/MqttSDK-Release\"",
+					"/Users/yangboz/Documents/Git/mqttIO-objC/dist/MqttSDK-Release-armv7s",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,18 +465,21 @@
 		F396EAC31577D0D2006A1D34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
 				INFOPLIST_FILE = "HelloMQTT/HelloMQTT-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/MqttSDK-Debug\"",
 					"\"$(SRCROOT)/MqttSDK-Release\"",
+					"/Users/yangboz/Documents/Git/mqttIO-objC/dist/MqttSDK-Release-armv7s",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
